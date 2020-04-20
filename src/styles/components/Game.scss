@@ -1,0 +1,49 @@
+.searchAndSort {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .sort {
+    display: flex;
+    align-items: center;
+  }
+}
+.sortMenuList {
+  .MuiList-root {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: flex-end;
+    .active {
+      background-color: grey;
+      color: #FFF;
+    }
+  }
+}
+
+.gameListingWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .box {
+    margin: 10px;
+    width: 30%;
+    height: 230px;
+    border-bottom: 4px solid #505dff;
+    @include breakpoint(desktop-below) {
+      width: 100%;
+    }
+    padding: 20px;
+    .boxHeader {
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .editorsChoice {
+      margin-top: 20px;
+    }
+    .rating {
+      margin-top: 10px;
+    }
+  }
+}

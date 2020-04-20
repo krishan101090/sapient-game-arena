@@ -1,0 +1,7 @@
+export const GET_GAMELIST_BEGIN = "GET_GAMELIST_BEGIN"
+export const GET_GAMELIST_SUCCESS = "GET_GAMELIST_SUCCESS"
+
+export const AJAX_LOADER = "AJAX_LOADER"
+
+export const ERROR = "ERROR"
+export const ERROR_HIDE = "ERROR_HIDE"

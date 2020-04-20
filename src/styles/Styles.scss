@@ -1,0 +1,15 @@
+// import all the custom scss files here
+
+// Common files
+// @import "./common/normalize";
+@import "./common/breakpoints";
+@import "./common/fonts";
+@import "./common/variables";
+@import "./common/grid";
+@import "./common/icons";
+
+@import "./Global.scss";
+// Components Files
+
+@import "./components/Header.scss";
+@import "./components/Game.scss";

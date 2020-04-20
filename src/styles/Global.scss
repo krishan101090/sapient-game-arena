@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.mainWrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+  @include breakpoint(desktop-below) {
+    padding: 0 20px;
+  }
+  padding: 0 60px;
+}
+.react-hooks-paginator.react-hooks-paginator {
+  @include breakpoint(desktop-below) {
+    padding: 0;
+  }
+  .page-item {
+    &.active {
+      .page-link {
+        background-color: #505dff;
+        border-color: #505dff;
+      }
+    }
+    .page-link {
+      &:hover {
+        background-color: #505dff;
+        border-color: #505dff;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+.noRecord {
+  text-align: center;
+  margin-top: 100px;
+}
